@@ -1,0 +1,57 @@
+.container {
+    width: 1440px;
+    height: 1024px;
+    flex-grow: 0;
+    background-color: #ffffff;
+}
+
+.header {
+    width: 1440px;
+    height: 250px;
+    margin: 0 0 30px;
+    padding: 0 63px 7px 89px;
+    background-image: url("/images/Navimage.png");
+    background-color: #b78c74;
+  }
+
+  .rewarding {
+      display: flex;
+  }
+
+  .title {
+      margin-left: auto;
+      color: white;
+  }
+
+  .content {
+      display: flex;
+  }
+
+  .footer {
+    width: 1440px;
+    height: 75px;
+    margin: 75px 0 0;
+    padding: 0 100px 0 107.5px;
+    background-color: #b78c74;
+    display: flex;
+  }
+
+  .copyright {
+    width: 405.3px;
+    height: 75px;
+    flex-grow: 0;
+    margin: 0 486.2px 0 0;
+    font-family: HeitiSC;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #000000;
+  }
+
+  .socialMedia {
+      display: flex;
+  }
