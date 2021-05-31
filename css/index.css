@@ -1,3 +1,27 @@
+ul {
+    list-style-type: none;
+}
+
+.navList {
+        width: 111px;
+        height: 41px;
+        flex-grow: 0;
+        margin: 19px 71px 12px 0;
+        font-family: HeitiSC;
+        font-size: 20px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.4px;
+        text-align: left;
+        color: #000000;
+}
+
+.navListItem {
+    margin-bottom: 25px;
+}
+
 .container {
     width: 1440px;
     height: 1024px;
@@ -11,6 +35,7 @@
     margin: 0 0 30px;
     padding: 0 63px 7px 89px;
     background-image: url("/images/Navimage.png");
+    background-repeat: no-repeat;
     background-color: #b78c74;
   }
 
@@ -21,6 +46,21 @@
   .title {
       margin-left: auto;
       color: white;
+  }
+
+  .titleText {
+    width: 499px;
+    height: 84px;
+    margin: 0 0 21px;
+    font-family: HeitiSC;
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 7.2px;
+    text-align: center;
+    margin-top: 50px;
   }
 
   .content {
@@ -50,8 +90,75 @@
     letter-spacing: 0.7px;
     text-align: left;
     color: #000000;
+    padding-top: 25px;
   }
 
   .socialMedia {
       display: flex;
   }
+
+  .socialMediaItem {
+      margin-right: 25px;
+  }
+
+.footerLogo {
+    margin-top: -10px;
+}
+
+.navButton {
+    width: 287px;
+    height: 43px;
+    margin: 21px 106px 0;
+    border-radius: 60px;
+    background-color: #a00721;
+    font-family: Merienda;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#imageOne {
+    width: 393px;
+  height: 264px;
+  margin: 32px 29px 48px;
+}
+
+#imageTwo {
+    width: 182px;
+  height: 264px;
+  margin: 30px 31px 50px 29px;
+}
+
+#imageThree {
+    width: 393px;
+  height: 264px;
+  margin: 32px 100px 48px 31px;
+}
+
+#imageFour {
+    width: 499px;
+  height: 280px;
+  flex-grow: 0;
+  margin: 0 30px 0 30px;
+
+}
+
+#imageFive {
+    width: 530px;
+  height: 280px;
+  flex-grow: 0;
+  margin: 0 0 0 30px;
+}
+
+.rowOneImages {
+    display: flex;
+}
+
+.rowTwoImages {
+    display: flex;
+}
