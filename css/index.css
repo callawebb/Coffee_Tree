@@ -1,6 +1,14 @@
 ul {
     list-style-type: none;
 }
+h2{ 
+  font-family: 'Merienda', cursive
+}
+
+p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 12px;
+}
 
 .navList {
         width: 111px;
@@ -123,19 +131,93 @@ ul {
 }
 
 #imageOne {
-    width: 393px;
+  width: 393px;
+  height: 264px;
+  
+}
+#imageOneWrap{
+  position: relative;
+  width: 393px;
   height: 264px;
   margin: 32px 29px 48px;
 }
 
+#imageOneDescription{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #3f3430ba;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  font-family: Merienda;
+  transition: opacity .2s, visibility .2s;
+
+}
+#imageOneButton{
+
+  width: 195px;
+  height: 34px;
+  padding: 5.7px 36.2px 5.7px 35.6px;
+  border-radius: 60px;
+  background-color: #a00721;
+  color: white;
+
+}
+#imageOneWrap:hover #imageOneDescription{
+  visibility: visible;
+  opacity: 1;
+}
+
 #imageTwo {
-    width: 182px;
+  width: 182px;
+  height: 264px;
+}
+
+#imageTwoWrap{
+  position: relative;
+  width: 182px;
   height: 264px;
   margin: 30px 31px 50px 29px;
 }
 
+#imageTwoDescription{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #3f3430ba;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  font-family: Merienda;
+  
+
+  transition: opacity .2s, visibility .2s;
+}
+
+#imageTwoButton{
+  width: 153px;
+  height: 26px;
+  padding: 5.7px 36.2px 5.7px 35.6px;
+  border-radius: 60px;
+  background-color: #a00721;
+  color: white;
+}
+#imageTwoWrap:hover #imageTwoDescription{
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
 #imageThree {
-    width: 393px;
+  width: 393px;
   height: 264px;
 }
 
@@ -167,7 +249,7 @@ ul {
   width: 232px;
   height: 26px;
   padding: 5.7px 36.2px 5.7px 35.6px;
-  border-radius: 60px;
+  border-radius: 60px; 
   background-color: #a00721;
   color: white;
 }
@@ -178,18 +260,88 @@ ul {
 }
 
 #imageFour {
-    width: 499px;
+  width: 499px;
   height: 280px;
-  flex-grow: 0;
-  margin: 0 30px 0 30px;
+  
 
 }
+#imageFourWrap{
+  position: relative;
+  width: 499px;
+  height: 280px;
+  margin: 0 30px 0 30px;
+
+
+}
+#imageFourDescription{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #3f3430ba;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  font-family: Merienda;
+  transition: opacity .2s, visibility .2s;
+}
+
+#imageFourButton{
+  width: 195px;
+  height: 34px;
+  padding: 5.7px 36.2px 5.7px 35.6px;
+  border-radius: 60px; 
+  background-color: #a00721;
+  color: white;
+}
+
+#imageFourWrap:hover #imageFourDescription{
+  visibility: visible;
+  opacity: 1;
+}
+
 
 #imageFive {
-    width: 530px;
+  width: 530px;
   height: 280px;
-  flex-grow: 0;
+}
+
+#imageFiveWrap{
+  position: relative;
+  width: 530px;
+  height: 280px;
   margin: 0 0 0 30px;
+}
+
+#imageFiveDescription{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #3f3430ba;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  font-family: Merienda;
+  transition: opacity .2s, visibility .2s;
+}
+
+#imageFiveButton{
+  width: 195px;
+  height: 34px;
+  padding: 5.7px 36.2px 5.7px 35.6px;
+  border-radius: 60px; 
+  background-color: #a00721;
+  color: white;
+}
+
+#imageFiveWrap:hover #imageFiveDescription{
+  visibility: visible;
+  opacity: 1;
 }
 
 .rowOneImages {
