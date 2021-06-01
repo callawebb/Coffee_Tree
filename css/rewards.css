@@ -1,0 +1,59 @@
+.headerRewards {
+    width: 1440px;
+  height: 150px;
+  margin: 0 0 30px;
+}
+
+.rewardsParagraph {
+    width: 393px;
+    height: 276px;
+    flex-grow: 0;
+    margin: 35.2px 0 0;
+    font-family: HeitiSC;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: 0.7px;
+    text-align: center;
+}
+
+.coffeeBrands {
+    text-align: center;
+}
+
+#rewardsButton {
+    width: 182px;
+    height: 62px;
+    margin: 33px 3px 0 4px;
+    padding: 13.6px 28.4px 13.6px 27.9px;
+    border-radius: 60px;
+    background-color: #b78c74;
+}
+
+#rewardsSideImage {
+    width: 288px;
+    height: 745px;
+    margin: 30px 100px 24px 30px;
+    padding: 0 0 12px;
+    background-color: #3c5100;
+}
+
+#donateButton {
+    width: 710px;
+    height: 69px;
+    margin: 29px 30px 26px 23px;
+    padding: 15.1px 110.8px 15.1px 109px;
+    border-radius: 60px;
+    background-color: #a00721;
+    font-family: Merienda;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-align: center;
+    color: #ffffff;
+}
