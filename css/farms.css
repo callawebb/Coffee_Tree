@@ -1,4 +1,4 @@
-ul {
+/* ul {
     list-style-type: none;
 }
 h2 { 
@@ -18,9 +18,9 @@ h4 {
 p{
   font-family: 'Quicksand', sans-serif;
   font-size: 12px;
-}
+} */
 
-.navList {
+/* .navList {
         width: 111px;
         height: 41px;
         flex-grow: 0;
@@ -34,6 +34,66 @@ p{
         letter-spacing: -0.4px;
         text-align: left;
         color: #000000;
+} */
+
+.headerFarms {
+  display: flex;
+  width: 1440px;
+  height: 150px;
+  margin: 0 0 25px;
+  padding: 2px 949px 0 93px;
+  background-color: rgba(183, 140, 116, 0);
+}
+
+.farmsButton {
+  width: 179px;
+  height: 38px;
+  margin: 103px 0 7px 15.5px;
+  padding: 8.3px 27.9px 8.3px 27.5px;
+  border-radius: 60px;
+  background-color: #a00721;
+  font-family: Merienda;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.9px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.farmTitle {
+  width: 1028px;
+  height: 52px;
+  margin: 25px 100px 27px 23px;
+  font-family: Merienda;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-align: center;
+  color: #000000;
+}
+
+.farmParagraph {
+  width: 938px;
+  height: 61px;
+  margin: 27px 145px 34px 68px;
+  font-family: HeitiSC;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.75px;
+  text-align: center;
+  color: #000000;
+}
+
+.imageOneFarm {
+  width: 499px;
+  height: 321px;
+  margin: 35px 30px 51px 23px;
 }
 
 .navListItem {
