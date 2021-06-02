@@ -52,7 +52,6 @@ p{
     height: 250px;
     margin: 0 0 30px;
     padding: 0 63px 7px 89px;
-    background-image: url("/images/Navimage.png");
     background-repeat: no-repeat;
     background-color: #b78c74;
   }
@@ -143,6 +142,7 @@ p{
 #imageOne {
   width: 393px;
   height: 264px;
+  background-image: url("/images/Costa Rica.png");
   
 }
 #imageOneWrap{
@@ -186,6 +186,7 @@ p{
 #imageTwo {
   width: 182px;
   height: 264px;
+  background-image: url("/images/Colombia.png");
 }
 
 #imageTwoWrap{
@@ -231,6 +232,7 @@ p{
 #imageThree {
   width: 393px;
   height: 264px;
+  background-image: url("/images/Bali.png");
 }
 
 #imageThreeWrap {
@@ -275,6 +277,7 @@ p{
 #imageFour {
   width: 499px;
   height: 280px;
+  background-image: url("/images/Honduras.png");
   
 
 }
@@ -312,49 +315,6 @@ p{
 }
 
 #imageFourWrap:hover #imageFourDescription{
-  visibility: visible;
-  opacity: 1;
-}
-
-
-#imageFive {
-  width: 530px;
-  height: 280px;
-}
-
-#imageFiveWrap{
-  position: relative;
-  width: 530px;
-  height: 280px;
-  margin: 0 0 0 30px;
-}
-
-#imageFiveDescription{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #3f3430ba;
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-  text-align: center;
-  font-family: Merienda;
-  transition: opacity .2s, visibility .2s;
-}
-
-#imageFiveButton{
-  width: 195px;
-  height: 34px;
-  padding: 5.7px 36.2px 5.7px 35.6px;
-  border-radius: 60px; 
-  background-color: #a00721;
-  color: white;
-  font-family: 'Merienda', cursive;
-}
-
-#imageFiveWrap:hover #imageFiveDescription{
   visibility: visible;
   opacity: 1;
 }
