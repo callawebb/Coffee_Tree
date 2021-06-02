@@ -1,0 +1,289 @@
+ul {
+    list-style-type: none;
+}
+h2 { 
+  font-family: 'Merienda', cursive;
+}
+
+h4 {
+  font-family: 'Merienda', cursive;
+  margin: 26px 30px 4px 23px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 12px;
+}
+
+.navList {
+        width: 111px;
+        height: 41px;
+        flex-grow: 0;
+        margin: 19px 71px 12px 0;
+        font-family:'Quicksand', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.4px;
+        text-align: left;
+        color: #000000;
+}
+
+.navListItem {
+    margin-bottom: 25px;
+}
+
+.container {
+    width: 1440px;
+    height: 1024px;
+    flex-grow: 0;
+    background-color: #ffffff;
+}
+
+.header {
+    width: 1440px;
+    height: 250px;
+    margin: 0 0 30px;
+    padding: 0 63px 7px 89px;
+    background-image: url("/images/Navimage.png");
+    background-repeat: no-repeat;
+    background-color: #b78c74;
+  }
+
+  .rewarding {
+      display: flex;
+  }
+
+  .title {
+      margin-left: auto;
+      color: white;
+  }
+
+  .titleText {
+    width: 499px;
+    height: 84px;
+    margin: 0 0 21px;
+    font-family: HeitiSC;
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 7.2px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .content {
+      display: flex;
+  }
+
+  .footer {
+    width: 1440px;
+    height: 75px;
+    margin: 75px 0 0;
+    padding: 0 100px 0 107.5px;
+    background-color: #b78c74;
+    display: flex;
+  }
+
+  .copyright {
+    width: 405.3px;
+    height: 75px;
+    flex-grow: 0;
+    margin: 0 486.2px 0 0;
+    font-family: HeitiSC;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #000000;
+    padding-top: 25px;
+  }
+
+  .socialMedia {
+      display: flex;
+  }
+
+  .socialMediaItem {
+      margin-right: 25px;
+  }
+
+.footerLogo {
+    margin-top: -10px;
+}
+
+.navButton {
+    width: 287px;
+    height: 43px;
+    margin: 21px 106px 0;
+    border-radius: 60px;
+    background-color: #a00721;
+    font-family: 'Merienda', cursive;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#imageOne {
+position: absolute;
+width: 499px;
+height: 321px;
+left: 312px;
+top: 350px;
+
+background: url(CostaRica.png);
+  
+}
+#imageOneWrap{
+  position: relative;
+  width: 499px;
+  height: 321px;
+  margin: 32px 29px 48px;
+}
+
+#imageOneDescription{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #3f3430ba;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  font-family: Merienda;
+  transition: opacity .2s, visibility .2s;
+
+}
+#imageOneWrap:hover #imageOneDescription{
+  visibility: visible;
+  opacity: 1;
+}
+
+#imageTwo {
+  width: 498px;
+  height: 321px;
+}
+
+#imageTwoWrap{
+  position: relative;
+  width: 498px;
+  height: 321px;
+  margin: 30px 31px 50px 29px;
+}
+
+#imageTwoDescription{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #3f3430ba;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  font-family: Merienda;
+  
+
+  transition: opacity .2s, visibility .2s;
+}
+#imageTwoWrap:hover #imageTwoDescription{
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+#imageThree {
+  width: 498px;
+  height: 321px;
+}
+
+#imageThreeWrap {
+  position: relative;
+  width: 498px;
+  height: 321px;
+  margin: 32px 100px 48px 31px;
+}
+
+#imageThreeDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #3f3430ba;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  font-family: Merienda;
+
+  /* transition effect */
+  transition: opacity .2s, visibility .2s;
+}
+
+#imageThreeWrap:hover #imageThreeDescription {
+  visibility: visible;
+  opacity: 1;
+}
+
+#imageFour {
+  width: 498px;
+  height: 321px;
+  
+
+}
+#imageFourWrap{
+  position: relative;
+  width: 498px;
+  height: 321px;
+  margin: 0 30px 0 30px;
+
+
+}
+#imageFourDescription{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #3f3430ba;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  font-family: Merienda;
+  transition: opacity .2s, visibility .2s;
+}
+
+#imageFourWrap:hover #imageFourDescription{
+  visibility: visible;
+  opacity: 1;
+}
+
+.rowOneImages {
+    display: flex;
+}
+
+.rowTwoImages {
+    display: flex;
+}
