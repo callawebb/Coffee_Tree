@@ -147,7 +147,7 @@ height: 321px;
 left: 312px;
 top: 350px;
 
-background: url(CostaRica.png);
+ background-image: url("CostaRica.png");
   
 }
 #imageOneWrap{
@@ -180,6 +180,8 @@ background: url(CostaRica.png);
 #imageTwo {
   width: 499px;
   height: 321px;
+    
+     background-image: url("Colombia.png");
 }
 
 #imageTwoWrap{
@@ -215,6 +217,8 @@ background: url(CostaRica.png);
 #imageThree {
   width: 499px;
   height: 321px;
+    
+     background-image: url("Bali.png");
 }
 
 #imageThreeWrap {
@@ -249,6 +253,8 @@ background: url(CostaRica.png);
 #imageFour {
   width: 499px;
   height: 321px;
+    
+     background-image: url("Honduras.png");
   
 
 }
