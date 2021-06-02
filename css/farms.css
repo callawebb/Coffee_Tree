@@ -56,10 +56,6 @@ p{
     background-color: #b78c74;
   }
 
-  .rewarding {
-      display: flex;
-  }
-
   .title {
       margin-left: auto;
       color: white;
@@ -122,22 +118,7 @@ p{
     margin-top: -10px;
 }
 
-.navButton {
-    width: 287px;
-    height: 43px;
-    margin: 21px 106px 0;
-    border-radius: 60px;
-    background-color: #a00721;
-    font-family: 'Merienda', cursive;
-    font-size: 24px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 1.2px;
-    text-align: center;
-    color: #ffffff;
-}
+
 
 #imageOne {
   width: 393px;
