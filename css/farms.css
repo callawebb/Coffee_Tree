@@ -1,295 +1,320 @@
-ul {
-    list-style-type: none;
-}
-h2 { 
-  font-family: 'Merienda', cursive;
-}
+/* image 8 */
 
-h4 {
-  font-family: 'Merienda', cursive;
-  margin: 26px 30px 4px 23px;
-  font-size: 30px;
-  font-weight: bold;
-  line-height: normal;
-  letter-spacing: 1.5px;
-  text-align: center;
-}
 
-p{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 12px;
-}
+position: absolute;
+width: 508px;
+height: 321px;
 
-.navList {
-        width: 111px;
-        height: 41px;
-        flex-grow: 0;
-        margin: 19px 71px 12px 0;
-        font-family:'Quicksand', sans-serif;
-        font-size: 20px;
-        font-weight: 300;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: normal;
-        letter-spacing: -0.4px;
-        text-align: left;
-        color: #000000;
-}
+background: url(image.png);
 
-.navListItem {
-    margin-bottom: 25px;
-}
 
-.container {
-    width: 1440px;
-    height: 1024px;
-    flex-grow: 0;
-    background-color: #ffffff;
-}
+/* Footer */
 
-.header {
-    width: 1440px;
-    height: 250px;
-    margin: 0 0 30px;
-    padding: 0 63px 7px 89px;
-    background-image: url("/images/Navimage.png");
-    background-repeat: no-repeat;
-    background-color: #b78c74;
-  }
 
-  .rewarding {
-      display: flex;
-  }
+position: absolute;
+width: 1440px;
+height: 75px;
+left: 0px;
+top: 1080px;
 
-  .title {
-      margin-left: auto;
-      color: white;
-  }
 
-  .titleText {
-    width: 499px;
-    height: 84px;
-    margin: 0 0 21px;
-    font-family: HeitiSC;
-    font-size: 40px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: 7.2px;
-    text-align: center;
-    margin-top: 50px;
-  }
 
-  .content {
-      display: flex;
-  }
+/* Rectangle 17 */
 
-  .footer {
-    width: 1440px;
-    height: 75px;
-    margin: 75px 0 0;
-    padding: 0 100px 0 107.5px;
-    background-color: #b78c74;
-    display: flex;
-  }
 
-  .copyright {
-    width: 405.3px;
-    height: 75px;
-    flex-grow: 0;
-    margin: 0 486.2px 0 0;
-    font-family: HeitiSC;
-    font-size: 14px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.43;
-    letter-spacing: 0.7px;
-    text-align: left;
-    color: #000000;
-    padding-top: 25px;
-  }
+position: absolute;
+width: 393px;
+height: 321px;
+left: 945px;
+top: 350px;
 
-  .socialMedia {
-      display: flex;
-  }
+background: #535151;
 
-  .socialMediaItem {
-      margin-right: 25px;
-  }
 
-.footerLogo {
-    margin-top: -10px;
-}
+/* Coffee Lovers Helping Coffee Farms */
 
-.navButton {
-    width: 287px;
-    height: 43px;
-    margin: 21px 106px 0;
-    border-radius: 60px;
-    background-color: #a00721;
-    font-family: 'Merienda', cursive;
-    font-size: 24px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 1.2px;
-    text-align: center;
-    color: #ffffff;
-}
 
-#imageOne {
+position: absolute;
+width: 1028px;
+height: 52px;
+left: 312px;
+top: 175px;
+
+/* H1 */
+
+font-family: Merienda;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 69px;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+
+
+/* Learn More about sustainable coffee farms we have partnered with to help your good habits be used for good after getting 100 beans in our rewards program. Coffee Tree will donate at Coffee to the farm of your choice. Below are Farms with proven sustainable growing techniques. Click on the image of the farm to learn more about each. */
+
+
+position: absolute;
+width: 938px;
+height: 61px;
+left: 357px;
+top: 254px;
+
+font-family: Heiti SC;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 20px;
+/* or 133% */
+
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+
+
+
+/* image 6 */
+
+
+position: absolute;
+width: 498px;
+height: 321px;
+left: 841px;
+top: 350px;
+
+background: url(image.png);
+
+
+/* image 2 */
+
+
 position: absolute;
 width: 499px;
 height: 321px;
 left: 312px;
 top: 350px;
 
- background-image: url("CostaRica.png");
-  
-}
-#imageOneWrap{
-  position: relative;
-  width: 499px;
-  height: 321px;
-  margin: 32px 29px 48px;
-}
-
-#imageOneDescription{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #3f3430ba;
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-  text-align: center;
-  font-family: Merienda;
-  transition: opacity .2s, visibility .2s;
-
-}
-#imageOneWrap:hover #imageOneDescription{
-  visibility: visible;
-  opacity: 1;
-}
-
-#imageTwo {
-  width: 499px;
-  height: 321px;
-    
-     background-image: url("Colombia.png");
-}
-
-#imageTwoWrap{
-  position: relative;
-  width: 499px;
-  height: 321px;
-  margin: 30px 31px 50px 29px;
-}
-
-#imageTwoDescription{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #3f3430ba;
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-  text-align: center;
-  font-family: Merienda;
-  
-
-  transition: opacity .2s, visibility .2s;
-}
-#imageTwoWrap:hover #imageTwoDescription{
-  visibility: visible;
-  opacity: 1;
-}
+background: url(image.png);
 
 
-
-#imageThree {
-  width: 499px;
-  height: 321px;
-    
-     background-image: url("Bali.png");
-}
-
-#imageThreeWrap {
-  position: relative;
-  width: 499px;
-  height: 321px;
-  margin: 32px 100px 48px 31px;
-}
-
-#imageThreeDescription {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #3f3430ba;
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-  text-align: center;
-  font-family: Merienda;
-
-  /* transition effect */
-  transition: opacity .2s, visibility .2s;
-}
-
-#imageThreeWrap:hover #imageThreeDescription {
-  visibility: visible;
-  opacity: 1;
-}
-
-#imageFour {
-  width: 499px;
-  height: 321px;
-    
-     background-image: url("Honduras.png");
-  
-
-}
-#imageFourWrap{
-  position: relative;
-  width: 499px;
-  height: 321px;
-  margin: 0 30px 0 30px;
+/* Rectangle 34 */
 
 
-}
-#imageFourDescription{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #3f3430ba;
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-  text-align: center;
-  font-family: Merienda;
-  transition: opacity .2s, visibility .2s;
-}
+position: absolute;
+width: 499px;
+height: 65px;
+left: 312px;
+top: 349px;
 
-#imageFourWrap:hover #imageFourDescription{
-  visibility: visible;
-  opacity: 1;
-}
+background: #3F3430;
+opacity: 0.8;
 
-.rowOneImages {
-    display: flex;
-}
 
-.rowTwoImages {
-    display: flex;
-}
+/* Rectangle 35 */
+
+
+position: absolute;
+width: 497px;
+height: 65px;
+left: 841px;
+top: 349px;
+
+background: #3F3430;
+opacity: 0.8;
+
+
+/* Costa Rica */
+
+
+position: absolute;
+width: 499px;
+height: 65px;
+left: 312px;
+top: 349px;
+
+/* H2 */
+
+font-family: Merienda;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 58px;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Costa Rica */
+
+
+position: absolute;
+width: 309px;
+height: 52px;
+left: 961px;
+top: 821px;
+
+/* H1 */
+
+font-family: Merienda;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 69px;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+
+
+/* Colombia */
+
+
+position: absolute;
+width: 499px;
+height: 64px;
+left: 841px;
+top: 350px;
+
+/* H2 */
+
+font-family: Merienda;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 58px;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* image 12 */
+
+
+position: absolute;
+width: 499px;
+height: 321px;
+left: 312px;
+top: 724px;
+
+background: url(image.png);
+
+
+/* Rectangle 36 */
+
+
+position: absolute;
+width: 500px;
+height: 65px;
+left: 312px;
+top: 980px;
+
+background: #3F3430;
+opacity: 0.8;
+
+
+/* Bali */
+
+
+position: absolute;
+width: 499px;
+height: 65px;
+left: 312px;
+top: 980px;
+
+/* H2 */
+
+font-family: Merienda;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 58px;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* image 12 */
+
+
+position: absolute;
+width: 498px;
+height: 323px;
+left: 841px;
+top: 722px;
+
+background: url(image.png);
+
+
+/* Rectangle 38 */
+
+
+position: absolute;
+width: 498px;
+height: 65px;
+left: 841px;
+top: 980px;
+
+background: #3F3430;
+opacity: 0.8;
+
+
+/* Honduras */
+
+
+position: absolute;
+width: 499px;
+height: 65px;
+left: 841px;
+top: 980px;
+
+/* H2 */
+
+font-family: Merienda;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 58px;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* Header */
+
+
+position: absolute;
+width: 1440px;
+height: 150px;
+left: 0px;
+top: 0px;
+
+
+
+/* NAV */
+
+
+position: absolute;
+width: 182px;
+height: 316px;
+left: 107px;
+top: 180px;
