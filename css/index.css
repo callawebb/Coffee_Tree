@@ -20,6 +20,11 @@ p{
   font-size: 12px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .navList {
         width: 111px;
         height: 41px;
@@ -38,6 +43,10 @@ p{
 
 .navListItem {
     margin-bottom: 25px;
+}
+
+.navListItem:hover {
+  text-decoration: underline;
 }
 
 .container {

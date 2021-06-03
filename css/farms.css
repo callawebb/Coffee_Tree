@@ -1,4 +1,4 @@
-/* ul {
+ul {
     list-style-type: none;
 }
 h2 { 
@@ -18,23 +18,23 @@ h4 {
 p{
   font-family: 'Quicksand', sans-serif;
   font-size: 12px;
-} */
+}
 
-/* .navList {
-        width: 111px;
-        height: 41px;
-        flex-grow: 0;
-        margin: 19px 71px 12px 0;
-        font-family:'Quicksand', sans-serif;
-        font-size: 20px;
-        font-weight: 300;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: normal;
-        letter-spacing: -0.4px;
-        text-align: left;
-        color: #000000;
-} */
+.navList {
+  width: 111px;
+  height: 41px;
+  flex-grow: 0;
+  margin: 19px 71px 12px 0;
+  font-family:'Quicksand', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #000000;
+}
 
 .headerFarms {
   display: flex;
@@ -90,12 +90,31 @@ p{
   color: #000000;
 }
 
-.imageOneFarm {
+#imageOneFarm {
   width: 499px;
   height: 321px;
   margin: 35px 30px 51px 23px;
 }
 
+#imageTwoFarm {
+  width: 498px;
+  height: 321px;
+  margin: 35px 101px 51px 29px;
+  padding: 0 1px 0 104px;
+}
+
+#imageThreeFarm {
+  width: 499px;
+  height: 321px;
+  margin: 53px 30px 35px 23px;
+}
+
+#imageFourFarm {
+  width: 498px;
+  height: 323px;
+  margin: 51px 101px 35px 29px;
+  padding: 0px 0px 0px 104px;
+}
 .navListItem {
     margin-bottom: 25px;
 }
