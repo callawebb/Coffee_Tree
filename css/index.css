@@ -70,6 +70,11 @@ a {
       display: flex;
   }
 
+  .hamburgerMenuIcon {
+    visibility: hidden;
+    margin-bottom: -200px;
+  }
+
   .title {
       margin-left: auto;
       color: white;
@@ -374,4 +379,58 @@ a {
 
 .rowTwoImages {
     display: flex;
+}
+
+@media only screen and (max-width: 375px) {
+
+  .container {
+    width: 375px;
+    height: 1263px;
+    flex-grow: 0;
+    background-color: #ffffff;
+  }
+  
+  .header {
+    width: 500px;
+    height: 200px;
+    margin: 0 0 40px;
+    padding: 38px 19px 20px 13px;
+    background-color: #b78c74;
+    background-image: url("/images/Navimage.png");
+    background-repeat: no-repeat;
+  }
+
+  .titleText {
+    visibility: hidden;
+  }
+
+  .nav {
+    visibility: hidden;
+  }
+
+  .headerLogo {
+    height: 135px;
+  }
+
+  .navButton {
+    width: 158px;
+    height: 31px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 60px;
+    background-color: #a00721;
+    font-family: Merienda;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  .hamburgerMenuIcon {
+    visibility: visible;
+    margin-bottom: auto;
+    margin-left: 50px;
+  }
 }
